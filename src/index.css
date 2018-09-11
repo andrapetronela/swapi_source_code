@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 650vh;
+  font-family: sans-serif;
+  color: #212121;
+  font-weight: 400;
+  box-sizing: border-box;
+  background-image: linear-gradient(to left bottom, #071D7E, #8E117D, #D4336A, #FB7155, #FFB54E, #F9F871);
+}
+
+input:focus {
+	outline: none;
+	border: 2px solid #071D7E;
+	width: 18rem;
+}
+input {
+	border: none;
+	width: 15rem;
+	height: 2.5rem;
+	color: #333;
+	transition: all .5s;
+}
+
+
+.planet {
+	height: 20rem;
+	width: 20rem;
+	margin-left: 2rem;
+	background-image: linear-gradient(to bottom, #F03434, #EC644B 18%,  transparent 20%); 
+}
+
+
+.title {
+	font-family: Wallpoet;
+	font-size: 5rem;
+	color: #F4D03F;
+}
+
+.name {
+	font-family: 'Fira Sans Condensed';
+	color: #013243;
+}
